@@ -9,7 +9,7 @@ export function SkillsSection() {
 
   return (
     <SectionShell id="skills">
-      <div className={cn("flex items-end justify-between gap-6", dir === "rtl" && "flex-row-reverse")}
+      <div className={cn("flex items-end justify-between gap-6", dir === "rtl")}
       >
         <div className={cn(dir === "rtl" && "text-right")}>
           <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">{t(portfolioContent.skills.title)}</h2>

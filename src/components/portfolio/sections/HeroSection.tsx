@@ -25,7 +25,7 @@ export function HeroSection({ headline, subhead }: Props) {
               {subhead}
             </p>
 
-            <div className={cn("mt-8 flex flex-wrap items-center gap-3", dir === "rtl" && "justify-end")}
+            <div className={cn("mt-8 flex flex-wrap items-center gap-3", dir === "rtl")}
             >
               <Button asChild className="hover-scale">
                 <a href="#projects">{locale === "en" ? "View My Work" : "شوف شغلي"}</a>
@@ -35,7 +35,7 @@ export function HeroSection({ headline, subhead }: Props) {
               </Button>
             </div>
 
-            <div className={cn("mt-10 flex flex-wrap items-center gap-2", dir === "rtl" && "justify-end")}
+            <div className={cn("mt-10 flex flex-wrap items-center gap-2", dir === "rtl")}
             >
               <span className="rounded-full border border-border/70 bg-card/50 px-3 py-1 text-xs text-muted-foreground">JS</span>
               <span className="rounded-full border border-border/70 bg-card/50 px-3 py-1 text-xs text-muted-foreground">React</span>

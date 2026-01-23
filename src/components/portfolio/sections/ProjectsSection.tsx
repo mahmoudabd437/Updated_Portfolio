@@ -11,12 +11,12 @@ export function ProjectsSection() {
 
   return (
     <SectionShell id="projects">
-      <div className={cn("flex items-end justify-between gap-6", dir === "rtl" && "flex-row-reverse")}
+      <div className={cn("flex items-end justify-between gap-6", dir === "rtl")}
       >
         <div className={cn(dir === "rtl" && "text-right")}>
           <h2 className="text-2xl font-semibold tracking-tight md:text-3xl">{t(portfolioContent.projects.title)}</h2>
           <p className="mt-3 text-muted-foreground">
-            {t({ en: "Problem → Solution → Result. Skimmable and outcome-driven.", ar: "مشكلة → حل → نتيجة. بشكل سريع وواضح." })}
+            {t({ en: "Problem → Solution → Result. Skimmable and outcome-driven.", ar: "مشكلة ← حل ← نتيجة. بشكل سريع وواضح." })}
           </p>
         </div>
       </div>
@@ -35,7 +35,7 @@ export function ProjectsSection() {
             </div>
 
             <div className="p-6">
-              <div className={cn("flex items-start justify-between gap-6", dir === "rtl" && "flex-row-reverse")}
+              <div className={cn("flex items-start justify-between gap-6", dir === "rtl")}
               >
                 <div className={cn("min-w-0", dir === "rtl" && "text-right")}>
                   <h3 className="truncate text-lg font-semibold tracking-tight">{t(p.title)}</h3>
