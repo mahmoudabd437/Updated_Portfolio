@@ -34,9 +34,9 @@ const projects: PortfolioProject[] = [
       ar: "حققت دقة تصنيف عالية على بيانات التصوير الطبي.",
     },
     stack: ["Python", "PyTorch", "TensorFlow", "OpenCV", "CNN"],
-    githubUrl: "",
+    githubUrl: "https://github.com/mahmoudabd437/Chest-X-Ray-Images-Pneumonia-detection",
     liveUrl: "",
-    imageUrl: "",
+    imageUrl: "/public/assets/x-rey.png",
   },
   {
     id: "ecommerce",
@@ -60,7 +60,7 @@ const projects: PortfolioProject[] = [
     stack: ["React", "Python", "REST"],
     githubUrl: "https://github.com/mahmoudabd437/E-commerce-Website",
     liveUrl: "https://e-commerce-website-two-sigma.vercel.app/",
-    imageUrl: "https://mahmoudabd-portfolio-app.netlify.app/Assets/e-commerce.png",
+    imageUrl: "/public/assets/e-commerce.png",
   },
   {
     id: "gym",
@@ -70,9 +70,9 @@ const projects: PortfolioProject[] = [
     solution: { en: "Structured flows, clear permissions, and scalable data model.", ar: "Flows منظمة وصلاحيات واضحة ونموذج بيانات قابل للتوسع." },
     result: { en: "More reliable operations and smoother staff experience.", ar: "عمليات أكثر موثوقية وتجربة أفضل للموظفين." },
     stack: ["React", "Python"],
-    githubUrl: "https://github.com/Mahmoudt559/GYM_SYSTEM/tree/final_update",
+    githubUrl: "https://github.com/mahmoudabd437/Gym-System",
     liveUrl: "",
-    imageUrl: "",
+    imageUrl: "/public/assets/Gym_system.png",
   },
   {
     id: "dashboard",
@@ -84,7 +84,7 @@ const projects: PortfolioProject[] = [
     stack: ["React", "Charts"],
     githubUrl: "https://github.com/mahmoudabd437/Template4",
     liveUrl: "https://mahmoudabd437.github.io/Template4/",
-    imageUrl: "https://mahmoudabd-portfolio-app.netlify.app/Assets/template4.png",
+    imageUrl: "/public/assets/template4.png",
   },
   {
     id: "glowing",
@@ -96,7 +96,7 @@ const projects: PortfolioProject[] = [
     stack: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/mahmoudabd437/Glowing---Reveal-The-Beauty-of-Skin",
     liveUrl: "https://mahmoudabd437.github.io/Glowing---Reveal-The-Beauty-of-Skin/",
-    imageUrl: "https://mahmoudabd-portfolio-app.netlify.app/Assets/glowing.png",
+    imageUrl: "/public/assets/glowing.png",
   },
 ];
 
