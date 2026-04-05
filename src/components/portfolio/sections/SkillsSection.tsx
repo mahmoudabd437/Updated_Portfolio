@@ -19,7 +19,7 @@ export function SkillsSection() {
         </div>
       </div>
 
-      <div className="mt-8 grid gap-5 md:grid-cols-3">
+      <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {portfolioContent.skills.groups.map((group) => (
           <div key={group.title.en} className="rounded-3xl border border-border/60 bg-card/40 p-6 backdrop-blur">
             <div className={cn("text-sm font-medium", dir === "rtl" && "text-right")}>{t(group.title)}</div>

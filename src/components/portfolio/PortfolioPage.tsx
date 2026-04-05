@@ -8,6 +8,7 @@ import { ProjectsSection } from "@/components/portfolio/sections/ProjectsSection
 import { WhyHireMeSection } from "@/components/portfolio/sections/WhyHireMeSection";
 import { ContactSection } from "@/components/portfolio/sections/ContactSection";
 import { Footer } from "@/components/portfolio/sections/Footer";
+import { WhatsAppButton } from "@/components/portfolio/WhatsAppButton";
 
 export function PortfolioPage() {
   const { locale } = useLocale();
@@ -38,6 +39,7 @@ export function PortfolioPage() {
         linkedinUrl={portfolioContent.links.linkedin}
         email={portfolioContent.links.email}
       />
+      <WhatsAppButton />
     </div>
   );
 }

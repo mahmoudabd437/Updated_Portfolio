@@ -15,6 +15,30 @@ export type PortfolioProject = {
 
 const projects: PortfolioProject[] = [
   {
+    id: "chest-xray",
+    title: { en: "Chest X‑Ray Pneumonia Detection", ar: "كشف الالتهاب الرئوي من صور الأشعة" },
+    description: {
+      en: "A Deep Learning model to detect pneumonia from chest X‑ray images.",
+      ar: "نموذج Deep Learning لاكتشاف الالتهاب الرئوي من صور أشعة الصدر.",
+    },
+    problem: {
+      en: "Manual diagnosis of pneumonia from X‑rays is time‑consuming and error‑prone.",
+      ar: "التشخيص اليدوي للالتهاب الرئوي من الأشعة بطيء ومعرّض للأخطاء.",
+    },
+    solution: {
+      en: "Built a CNN‑based classifier with image preprocessing and data augmentation.",
+      ar: "بنيت Classifier بـ CNN مع معالجة صور وData Augmentation.",
+    },
+    result: {
+      en: "Achieved high classification accuracy on medical imaging datasets.",
+      ar: "حققت دقة تصنيف عالية على بيانات التصوير الطبي.",
+    },
+    stack: ["Python", "PyTorch", "TensorFlow", "OpenCV", "CNN"],
+    githubUrl: "",
+    liveUrl: "",
+    imageUrl: "",
+  },
+  {
     id: "ecommerce",
     title: { en: "E‑Commerce Platform", ar: "منصة تجارة إلكترونية" },
     description: {
@@ -63,30 +87,6 @@ const projects: PortfolioProject[] = [
     imageUrl: "https://mahmoudabd-portfolio-app.netlify.app/Assets/template4.png",
   },
   {
-    id: "foodie",
-    title: { en: "Foodie Website", ar: "موقع مطاعم (Foodie)" },
-    description: { en: "A modern, responsive site focused on storytelling.", ar: "موقع عصري Responsive بتركيز على الـ Storytelling." },
-    problem: { en: "Brand needed a premium feel without clutter.", ar: "كان مطلوب إحساس Premium بدون زحمة." },
-    solution: { en: "Minimal layout with micro‑interactions and strong typography.", ar: "تصميم Minimal مع Micro‑interactions وتايبوجرافي قوية." },
-    result: { en: "Higher engagement and better readability.", ar: "تفاعل أعلى وقابلية قراءة أفضل." },
-    stack: ["React", "Bootstrap"],
-    githubUrl: "https://github.com/mahmoudabd437/Foodie-website",
-    liveUrl: "https://mahmoudabd437.github.io/Foodie-website/",
-    imageUrl: "https://mahmoudabd-portfolio-app.netlify.app/Assets/foodie.png",
-  },
-  {
-    id: "kitty",
-    title: { en: "Kitty Website", ar: "موقع Kitty" },
-    description: { en: "A clean, playful landing experience with polished UI.", ar: "Landing لطيف ونضيف بواجهة مصقولة." },
-    problem: { en: "Needed an engaging, lightweight landing with clear sections.", ar: "كان مطلوب Landing خفيف وجذاب بأقسام واضحة." },
-    solution: { en: "Minimal layout, strong hierarchy, and smooth interactions.", ar: "تصميم Minimal وهرمية قوية وتفاعلات سلسة." },
-    result: { en: "Better clarity and a premium feel without clutter.", ar: "وضوح أكتر وإحساس Premium بدون زحمة." },
-    stack: ["HTML", "CSS", "JavaScript"],
-    githubUrl: "https://github.com/mahmoudabd437/Kitty-Website",
-    liveUrl: "https://mahmoudabd437.github.io/Kitty-Website/",
-    imageUrl: "https://mahmoudabd-portfolio-app.netlify.app/Assets/kitty.png",
-  },
-  {
     id: "glowing",
     title: { en: "Glowing — Skin Landing", ar: "Glowing — سكين كير" },
     description: { en: "A beauty brand landing page with modern visuals and flow.", ar: "Landing لبراند سكين كير بشكل عصري وسلس." },
@@ -108,29 +108,29 @@ export const portfolioContent = {
     linkedin: "https://www.linkedin.com/in/mahmoud-abd-elmoneam-ramadan-738146304",
   },
   role: {
-    en: "Full-Stack Developer",
-    ar: "مطور Full‑Stack",
+    en: "Full-Stack Developer & ML Engineer",
+    ar: "مطور Full‑Stack ومهندس ML",
   },
   hero: {
     headline: {
-      en: "I Build Powerful Full‑Stack Experiences",
-      ar: "ببني تجارب Full‑Stack قوية",
+      en: "I Build Powerful Full‑Stack & AI Experiences",
+      ar: "ببني تجارب Full‑Stack و AI قوية",
     },
     subhead: {
-      en: "Full‑Stack Developer turning ideas into scalable digital products using React & Python.",
-      ar: "مطور Full‑Stack بحوّل الأفكار لأنظمة رقمية قوية وقابلة للتوسع باستخدام React و Python.",
+      en: "Full‑Stack Developer & ML Engineer turning ideas into scalable digital products using React, Python & Deep Learning.",
+      ar: "مطور Full‑Stack ومهندس ML بحوّل الأفكار لأنظمة رقمية وذكية باستخدام React و Python و Deep Learning.",
     },
     ctas: {
       work: { en: "View My Work", ar: "شوف شغلي" },
       contact: { en: "Contact Me", ar: "تواصل معايا" },
     },
-    tech: ["JS", "React", "Python", "Django", "Bootstrap"],
+    tech: ["JS", "React", "Python", "Django", "Bootstrap", "PyTorch", "OpenCV"],
   },
   about: {
     title: { en: "About", ar: "نبذة" },
     story: {
-      en: "Hi, I’m Mahmoud — a Full‑Stack Developer who enjoys building systems that actually solve problems. I focus on creating fast, scalable, and maintainable applications with clean architecture and modern technologies.",
-      ar: "أنا محمود، مطور Full‑Stack بحب أبني أنظمة حقيقية تحل مشاكل فعلية. تركيزي دايمًا على الأداء، التنظيم، وسهولة التوسع باستخدام أحدث التقنيات.",
+      en: "Hi, I’m Mahmoud — a Full‑Stack Developer & Machine Learning Engineer who enjoys building systems that actually solve problems. From scalable web apps to deep learning models for computer vision, I focus on clean architecture, performance, and real‑world impact.",
+      ar: "أنا محمود، مطور Full‑Stack ومهندس Machine Learning بحب أبني أنظمة حقيقية تحل مشاكل فعلية. من تطبيقات الويب لنماذج Deep Learning للـ Computer Vision، تركيزي دايمًا على الأداء والتنظيم والتأثير الحقيقي.",
     },
     timeline: [
       {
@@ -155,6 +155,7 @@ export const portfolioContent = {
     groups: [
       { title: { en: "Frontend", ar: "الواجهة" }, items: ["React", "JavaScript", "HTML", "CSS", "Bootstrap"] },
       { title: { en: "Backend", ar: "الخلفية" }, items: ["Python", "Django", "REST APIs"] },
+      { title: { en: "ML / DL / CV", ar: "ML / DL / CV" }, items: ["PyTorch", "TensorFlow", "OpenCV", "Scikit‑learn", "NumPy", "Pandas", "Matplotlib"] },
       { title: { en: "Tools", ar: "أدوات" }, items: ["Git", "GitHub", "Testing", "Performance"] },
     ],
   },
